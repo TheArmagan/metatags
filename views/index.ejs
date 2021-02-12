@@ -2,11 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta property="theme-color" content="#<%- color %>" />
+    <meta property="theme-color" content="#<%- color.replace('#','') %>" />
     <% tags.forEach((tag)=>{ %>
     <meta property="og:<%- tag[0] %>" content="<%- tag[1] %>" />
     <% }) %>
     <title>OGPP</title>
   </head>
-  <body></body>
+  <body>
+    OGPP
+  </body>
 </html>
