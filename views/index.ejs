@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta property="theme-color" content="#<%- color %>" />
+    <% tags.forEach((tag)=>{ %>
+    <meta property="og:<%- tag[0] %>" content="<%- tag[1] %>" />
+    <% }) %>
+    <title>OGPP</title>
+  </head>
+  <body></body>
+</html>
